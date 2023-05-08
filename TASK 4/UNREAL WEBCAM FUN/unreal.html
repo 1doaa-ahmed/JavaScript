@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./unreal.css">
+</head>
+<body>
+    <div class="photobooth">
+        <div class="controls">
+            <button onclick="takephoto()">Take Photo</button>
+            <div class="rgb">
+                <label for="rmin">Red min:</label>
+                <input type="range" name="rmin" min="0" max="255">
+                <label for="rmax">Red max:</label>
+                <input type="range" name="rmax" min="0" max="255">
+                <br>
+                <label for="gmin">Green min:</label>
+                <input type="range" name="gmin" min="0" max="255">
+                <label for="gmax">Green max:</label>
+                <input type="range" name="gmax" min="0" max="255">
+                <br>
+                <label for="bmin">Blue min:</label>
+                <input type="range" name="bmin" min="0" max="255">
+                <label for="bmax">Blue max:</label>
+                <input type="range" name="bmax" min="0" max="255">
+            </div>
+        </div>
+    </div>
+    <script src="./unreal.js"></script>
+</body>
+</html>

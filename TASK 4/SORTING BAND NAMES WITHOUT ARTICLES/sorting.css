@@ -1,0 +1,16 @@
+body {
+    background-image: url(./pexels-eberhard-grossgasteiger-844297.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul:first-child {
+    background-color: white;
+    width: 200px;
+    height: 230px;
+    padding: 30px;
+    display: inline-block;
+    text-align: left;
+}
+.container {
+    text-align: center;
+}
